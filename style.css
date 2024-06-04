@@ -181,3 +181,9 @@ body {
   padding: 10px 24px;
   height: fit-content;
 }
+
+/**** Footer ******/
+.footer {
+  padding: 24px;
+  justify-content: center;
+}
