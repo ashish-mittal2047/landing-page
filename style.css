@@ -18,7 +18,7 @@ body {
 }
 
 .header .logo {
-  font-size: 28px;
+  font-size: 24px;
   margin-right: auto;
 }
 
@@ -31,4 +31,48 @@ body {
 .header .nav-link-list a {
   text-decoration: none;
   color: white;
+}
+
+/*********** content-1 **********/
+.content-1 {
+  display: flex;
+  background-color: #1F2937;
+  padding: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.content-1-left-half {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  flex-basis: 500px;
+  padding: 32px;
+}
+
+.content-1 .heading {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.content-1 .para {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.content-1 img {
+  width: 500px;
+  height: auto;
+}
+
+.content-1 button {
+  color: white;
+  background-color: #1E88E5;
+  font-weight: 700;
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
 }
