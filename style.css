@@ -140,3 +140,44 @@ body {
   font-weight: 700;
   font-size: 1.2em;
 }
+
+
+/********** content-4 **********/
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 500px;
+}
+
+.call-to-action-container {
+  height: 250px;
+  color: white;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  flex-basis: 1000px;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.cta-left-half {
+  flex-basis: 500px;
+}
+
+.cta-head {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.cta-sign-up {
+  background-color: #3882F6;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  padding: 10px 24px;
+  height: fit-content;
+}
